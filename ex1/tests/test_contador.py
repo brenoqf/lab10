@@ -12,8 +12,8 @@ def test_duas_palavras():
 def test_palavras_repetidas():
     assert contar_palavras("dia a dia") == {"dia":2, "a":1}
 
-# def test_palavras_maiusculas():
-#     assert contar_palavras("dia Dia DIA") == {"dia":3}
+def test_palavras_maiusculas():
+    assert contar_palavras("dia Dia DIA") == {"dia":3}
 
 # def test_quebra_linha():
 #     assert contar_palavras("bom\ndia") == {"bom":1, "dia":1}
