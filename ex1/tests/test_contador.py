@@ -18,8 +18,8 @@ def test_palavras_maiusculas():
 def test_quebra_linha():
     assert contar_palavras("bom\ndia") == {"bom":1, "dia":1}
 
-# def test_pontucao():
-#     assert contar_palavras("fim. fim, fim; fim: fim! fim?") == {"fim":6}
+def test_pontucao():
+    assert contar_palavras("fim. fim, fim; fim: fim! fim?") == {"fim":6}
 
 # def test_so_pontuacao():
 #     assert contar_palavras(",;:!?") == {}
