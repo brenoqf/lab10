@@ -21,8 +21,8 @@ def test_quebra_linha():
 def test_pontucao():
     assert contar_palavras("fim. fim, fim; fim: fim! fim?") == {"fim":6}
 
-# def test_so_pontuacao():
-#     assert contar_palavras(",;:!?") == {}
+def test_so_pontuacao():
+    assert contar_palavras(",;:!?") == {}
 
 # def test_hifen():
 #     assert contar_palavras("guarda-chuva") == {"guarda-chuva":1}
