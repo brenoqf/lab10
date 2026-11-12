@@ -15,8 +15,8 @@ def test_palavras_repetidas():
 def test_palavras_maiusculas():
     assert contar_palavras("dia Dia DIA") == {"dia":3}
 
-# def test_quebra_linha():
-#     assert contar_palavras("bom\ndia") == {"bom":1, "dia":1}
+def test_quebra_linha():
+    assert contar_palavras("bom\ndia") == {"bom":1, "dia":1}
 
 # def test_pontucao():
 #     assert contar_palavras("fim. fim, fim; fim: fim! fim?") == {"fim":6}
