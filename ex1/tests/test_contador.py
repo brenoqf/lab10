@@ -24,5 +24,5 @@ def test_pontucao():
 def test_so_pontuacao():
     assert contar_palavras(",;:!?") == {}
 
-# def test_hifen():
-#     assert contar_palavras("guarda-chuva") == {"guarda-chuva":1}
+def test_hifen():
+    assert contar_palavras("guarda-chuva") == {"guarda-chuva":1}
